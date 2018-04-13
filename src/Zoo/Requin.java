@@ -6,5 +6,5 @@ public class Requin extends Poisson {
 	public String son() {
 		return " je fais Argh ";
 	}
-
+	
 }

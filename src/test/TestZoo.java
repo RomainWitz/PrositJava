@@ -13,6 +13,13 @@ public class TestZoo {
 		cheeta.setNom("cheeta");
 		ham.setNom("ham");
 		
+		Zoo zoo =new Zoo();
+		zoo.ajouterAnimal(jaws);
+		zoo.ajouterAnimal(cheeta);
+		zoo.ajouterAnimal(ham);
+		
+		System.out.println(zoo.toString());
+		
 		System.out.println(jaws.toString() + " et " + jaws.son());
 		System.out.println(cheeta.toString()+ " et" + cheeta.son());
 		System.out.println(ham.toString()+ " et " + ham.son());
